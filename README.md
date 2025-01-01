@@ -4,6 +4,7 @@ Stop Sign Detection with YOLOv5
 # YOLOv5'i klonla ve kütüphaneleri yükle
 git clone https://github.com/ultralytics/yolov5
 cd yolov5
+
 pip install -r requirements.txt
 pip install torch torchvision numpy opencv-python matplotlib pyyaml
 
