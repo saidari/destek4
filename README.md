@@ -1,11 +1,15 @@
-# destek4
-Stop Sign Detection with YOLOv5
+# Eğitim ve Test Komutları
+- Öncesinde RoboFlow'dan bir veri seti indir.
+- data.yaml dosyasında dosya yollarına dikkat et.
+- training ve detection'larda dosya yollarına dikkat et.
 
 # YOLOv5'i klonla ve kütüphaneleri yükle
 git clone https://github.com/ultralytics/yolov5
 cd yolov5
 
 pip install -r requirements.txt
+
+
 pip install torch torchvision numpy opencv-python matplotlib pyyaml
 
 # modeli eğit (dosya yoluna dikkat et)
